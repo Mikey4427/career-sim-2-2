@@ -7,6 +7,7 @@ div {
     width: 325;
     border: .5px solid black;
     text-align: center;
+    border-radius: 15%;
 }
 .mydiv {
     height: 250;
@@ -34,7 +35,7 @@ img {
 
 }
 #snow {
-    height:110;
+    height:100;
     width: fit-content;
     margin-left: 80;
     margin-right: 80;
@@ -46,6 +47,7 @@ img {
     width: 652.5;
     height: 30;
     margin-left: 150;
+    border-radius: 80%;
 }
 a:hover {
     background-color: white;
@@ -57,6 +59,7 @@ a:hover {
     .they {
         width: 210;
         margin-left: 5;
+        border-radius: 20%;
     }
     .header {
         margin-left: auto;
@@ -69,12 +72,17 @@ a:hover {
     .mydiv {
         width: 325;
     }
-    .text {
+    .textarea {
         width: 25px;
         height: 25px;
     }
   }
-  .text {
+  .textarea {
+    margin-top: 50px;
     width: 300;
     height: 100;
+}
+#paragraph {
+    font-family: papyrus;
+    font-size: larger;
 }
