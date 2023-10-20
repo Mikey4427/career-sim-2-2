@@ -1,0 +1,41 @@
+body {
+    background-color: maroon;
+}
+div {
+    background-color: gold;
+    height: 250;
+    width: 325;
+    border: .5px solid black;
+    text-align: center;
+}
+.mydiv {
+    height: 250;
+    width: 651;
+    background-color: gold;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex-container {
+    margin-left: auto;
+    flex-wrap: wrap;
+    margin-right: auto;
+    display: flex;
+
+}
+img {
+    height: 250;
+    width: 200;
+}
+#hvac {
+    width: 325;
+}
+.it {
+    margin-left: 60;
+}
+#snow {
+    height:110;
+    width: fit-content;
+    margin-left: 80;
+    margin-right: 80;
+    border: solid black 1px;
+}
